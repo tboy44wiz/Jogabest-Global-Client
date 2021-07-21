@@ -1,0 +1,30 @@
+@import "../GlobalStyle";
+
+.TopBrandsComp {
+  padding: 80px 0;
+
+  .recommended-product__Column {
+    margin-bottom: 20px;
+
+    .recommended-product__wrapper {
+      height: $fullHeight;
+      width: 95%;
+      border: 1px solid #f1f1f1;
+      background: #f1f5fa;
+
+      display: flex;
+      justify-content: center;
+
+      .car-brand__wrapper {
+        //width: 95%;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+
+        .car-brand__logo {
+          height: 100px;
+        };
+      };
+    };
+  };
+};

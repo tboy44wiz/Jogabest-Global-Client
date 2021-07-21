@@ -1,0 +1,23 @@
+.SectionTitleComp {
+  margin-bottom: 40px;
+  p {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 500;
+    display: inline;
+    padding: 7px 20px;
+
+    &::before, &::after {
+      content: "";
+      height: 2px;
+      width: 30px;
+      margin: 0 3px;
+      background: red;
+      display: inline-block;
+    };
+  }
+};

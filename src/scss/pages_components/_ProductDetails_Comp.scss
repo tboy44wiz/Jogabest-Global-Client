@@ -1,0 +1,76 @@
+.ProductDetailsComp {
+  padding: 80px 0;
+
+  .product-image__wrapper {
+    display: flex;
+    justify-content: flex-end;
+  };
+
+  .product-detail__wrapper {
+    width: 80%;
+    padding-left: 40px;
+
+    .product__name {
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 3.3rem;
+    };
+    .product__description {
+      text-align: justify;
+    };
+    .product__price {
+      button {
+        margin-left: 10px;
+        background: #dbdbdb;
+        border: 1px solid  #dbdbdb;
+        border-radius: 50px;
+        padding: 7px 10px;
+        transition: 0.3s ease;
+
+        a {
+          color: #49494a;
+          text-decoration: none;
+        };
+        &:hover {
+          background: none;
+        };
+      };
+    };
+  };
+
+  .section__nav {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+    p {
+      margin: 0 5%;
+      a {
+        color: #202735;
+        font-weight: 700;
+        text-decoration: none;
+
+        &:active {
+          color: #112969 !important;
+        }
+      };
+    };
+  };
+
+  .specification-policy-review__wrapper {
+    margin-top: 40px;
+    ul {
+      padding: 0;
+      li {
+        list-style-type: none;
+        line-height: 2;
+        display: grid;
+        grid-template-columns: [span-start] 100px [span-end value-start] 1fr [value-enc];
+
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+};

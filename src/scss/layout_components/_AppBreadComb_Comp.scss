@@ -1,0 +1,21 @@
+@import "../GlobalStyle";
+
+.AppBreadCombComp {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../assets/images/slider_images/image5.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 120px 0 60px 0;
+    color: #FFFFFF;
+    h2 {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: 4.5rem;
+        font-weight: 500;
+        display: inline;
+        padding: 7px 20px;
+    };
+
+    p {
+        font-size: 1.6rem;
+        margin-bottom: 0;
+    };
+};

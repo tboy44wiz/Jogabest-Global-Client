@@ -1,0 +1,56 @@
+@import "../GlobalStyle";
+
+.ContactMeansComp {
+    padding: 120px 10% 80px 10%;
+
+    .contact-item__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+
+        .contact-item__inner {
+            height: $fullHeight;
+            width: $fullWidth;
+            margin-bottom: 70px;
+            text-align: center;
+            padding: 60px 10px 20px 10px;
+            background: #f1f5fa;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            position: relative;
+
+            .contact-item-icon__wrapper {
+                height: 80px;
+                width: 80px;
+                background: #253241;
+                border-radius: 30%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                position: absolute;
+                top: -40px;
+
+                .contact-item__icon {
+                    color: #FFFFFF;
+                    font-size: 2.8rem;
+                };
+            };
+            h3 {
+                font-family: 'KoHo', sans-serif;
+                font-size: 2rem;
+                font-weight: 600;
+            };
+            p {
+                font-size: 1.7rem;
+                font-weight: 400;
+            };
+        };
+    };
+};
