@@ -37,7 +37,7 @@ const AppHeaderComp = (props) => {
             <Navbar.Collapse id="responsive-navbar-nav" className= "justify-content-end">
                 <Nav className="ml-auto">
                     <Nav.Link as={Link} to="/">Home</Nav.Link>
-                    {/*<Nav.Link as={Link} to="/product_details">About</Nav.Link>*/}
+                    <Nav.Link as={Link} to="/about_us">About</Nav.Link>
                     {/*<NavDropdown className="p-0" title="Services" id="collasible-nav-dropdown">
                         <NavDropdown.Item as={Link} to="#" className="dropDown__items">Service 1</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="#" className="dropDown__items">Service 2</NavDropdown.Item>

@@ -1,0 +1,59 @@
+@import "../GlobalStyle";
+
+/*====== Vision And Mission ======*/
+.MissionAndVisionComp {
+  margin: 120px 0 60px 0;
+
+  .vision__wrapper, .mission__wrapper {
+    height: 350px;
+    background: #2B2E4A;
+    color: $linkColor;
+    display: flex;
+    align-items: center;
+  };
+  .vision__wrapper {
+    padding-right: 22px;
+    h3 {
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 2.6rem;
+      font-weight: 600;
+      text-align: right;
+      margin-top: -60px;
+
+      &::before {
+        content: "";
+        height: 2px;
+        width: 30px;
+        margin: 0 3px;
+        background: red;
+        display: inline-block;
+      };
+    };
+    p {
+      text-align: right;
+    }
+  };
+  .mission__wrapper {
+    background: #1C1E32 !important;
+    padding-left: 22px;
+
+    h3 {
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 2.6rem;
+      font-weight: 600;
+      text-align: left;
+
+      &::after {
+        content: "";
+        height: 2px;
+        width: 30px;
+        margin: 0 3px;
+        background: red;
+        display: inline-block;
+      };
+    };
+    p {
+      text-align: left;
+    };
+  };
+};

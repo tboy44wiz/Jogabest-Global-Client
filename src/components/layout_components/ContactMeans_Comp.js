@@ -17,7 +17,7 @@ const ContactMeansComp = () => {
                                 <HiOutlineLocationMarker className="contact-item__icon" />
                             </div>
                             <h3>Head Office</h3>
-                            <p>Line 54 Alaba International Market, Lagos State.</p>
+                            <p>No. 4, Jimade Close Matori, PIE & FRIENDS Warehouse, Ladipo, Mushin, Lagos State.</p>
                         </div>
                     </div>
                     <div className="col-md-4 contact-item__wrapper">
@@ -26,8 +26,9 @@ const ContactMeansComp = () => {
                                 <RiPhoneLine className="contact-item__icon" />
                             </div>
                             <h3>Phone</h3>
-                            <p> (+234) 803 1268 347</p>
-                            <p> (Whatsapp): 0803 1268 347</p>
+                            <p> (+234) 813 2403 322</p>
+                            <p> (+234) 806 8998 490</p>
+                            <p> (+234) 815 3536 249</p>
                         </div>
                     </div>
                     <div className="col-md-4 contact-item__wrapper">
@@ -36,7 +37,7 @@ const ContactMeansComp = () => {
                                 <HiOutlineMail className="contact-item__icon" />
                             </div>
                             <h3>Email</h3>
-                            <p>hello@domain.com</p>
+                            <p>jogabestglobal@gmail.com</p>
                         </div>
                     </div>
                 </div>

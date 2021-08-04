@@ -10,6 +10,7 @@ import { IoLogoInstagram } from 'react-icons/io';
 //  Import Images.
 import BrandLogo from '../../assets/images/car_parts_logo2.png';
 import {Link} from "react-router-dom";
+import React from "react";
 
 const AppFooterComp = (props) => {
     return (
@@ -21,18 +22,23 @@ const AppFooterComp = (props) => {
                         <div className="col-md-3 footer-about wow fadeInUp">
                             <img src={ BrandLogo } className="brand__logo img-fluid" alt="Brand Logo" />
                             <p>
-                                We are a young company always looking for new and creative ideas to help you
-                                with our products in your everyday work.
+                                <span>Jogabest Global Investment Ltd</span> is one of the fastest growing and diversified business
+                                conglomerates incorporated in Nigeria with a hard earned reputation for excellent business
+                                practices and products superiority.
                             </p>
                         </div>
 
                         <div className="col-md-4 offset-md-1 footer-contact wow fadeInDown">
                             <h3>Contact</h3>
-                            <p><HiOutlineLocationMarker className="contact__icon" /> Line 54 Alaba International Market, <br />Lagos State.</p>
-                            <p><RiPhoneLine className="contact__icon" /> Phone: (+234) 803 1268 347</p>
+                            <p><HiOutlineLocationMarker className="contact__icon" /> No. 4, Jimade Close Matori, PIE & FRIENDS Warehouse, Ladipo, Mushin, Lagos State.</p>
+                            <p><RiPhoneLine className="contact__icon" />
+                                <span> +234 813 2403 322</span>,
+                                <span> +234 806 8998 490</span>, <br/>
+                                <span> +234 815 3536 249</span>
+                            </p>
                             <p><HiOutlineMail className="contact__icon" /> Email: <Link
-                                to="mailto:hello@domain.com">hello@domain.com</Link></p>
-                            <p><RiWhatsappLine className="contact__icon" /> WhatsApp: 0803 1268 347</p>
+                                to="mailto:hello@domain.com">jogabestglobal@gmail.com</Link></p>
+                            <p><RiWhatsappLine className="contact__icon" /> WhatsApp: +234 813 2403 322</p>
                         </div>
 
                         <div className="col-md-4 footer-links wow fadeInUp">
@@ -44,10 +50,10 @@ const AppFooterComp = (props) => {
 
                             <div className="row">
                                 <div className="col-md-6">
-                                    <p><Link to="#" className="scroll-link">Home</Link></p>
-                                    <p><Link to="#">About</Link></p>
-                                    <p><Link to="#">Services</Link></p>
-                                    <p><Link to="#">Products</Link></p>
+                                    <p><Link to="/" className="scroll-link">Home</Link></p>
+                                    <p><Link to="/about_us">About</Link></p>
+                                    <p><Link to="/products">Products</Link></p>
+                                    <p><Link to="/contact">Contacts</Link></p>
                                 </div>
                                 <div className="col-md-6">
                                     <p><Link to="#">Plans &amp; pricing</Link></p>

@@ -82,7 +82,13 @@
         padding: 0 0 10px 0;
 
         .brand__logo { height: 70px; display: block; margin: 0 auto 10px auto };
-        p { text-align: justify };
+        p {
+          text-align: justify;
+
+          span {
+            font-weight: 700;
+          };
+        };
       };
 
       .footer-contact {

@@ -1,0 +1,14 @@
+@import "../GlobalStyle";
+
+.AboutDescriptionComp {
+  padding: 120px 0 40px 0;
+
+  .description__wrapper {
+    margin-top: -10px;
+    text-align: center;
+
+    span {
+      font-weight: 700;
+    };
+  };
+};

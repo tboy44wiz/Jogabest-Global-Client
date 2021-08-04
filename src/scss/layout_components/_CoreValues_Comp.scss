@@ -1,0 +1,64 @@
+@import "../GlobalStyle";
+
+
+/*====== Core Values ======*/
+.CoreValuesComp {
+  margin-top: 60px;
+
+  h3 {
+    font-family: 'KoHo', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 600;
+    &::after {
+      content: "";
+      height: 2px;
+      width: 30px;
+      margin: 0 3px;
+      background: red;
+      display: inline-block;
+    };
+  };
+
+  .core-value-item__wrapper {
+    height: 150px;
+    background: #f1f1f1;
+    color: #2B2E4A;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      background: #2B2E4A;
+      color: $linkColor;
+    };
+
+    .core-value-icon__wrapper {
+      height: 100px;
+      width: 100px;
+      background: $colorOrange;
+      font-size: 4rem;
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    };
+
+    h4 {
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 2.6rem;
+      font-weight: 600;
+    };
+  };
+
+
+  & .row .col-lg-4:nth-child(2) .core-value-item__wrapper {
+    background: #2B2E4A;
+    color: $linkColor;
+
+    &:hover {
+      background: #f1f1f1;
+      color: #2B2E4A;
+    };
+  };
+};

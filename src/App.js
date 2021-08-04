@@ -12,6 +12,7 @@ import LandingPageComp from './components/pages_components/LandingPage_Comp';
 import ContactPageComp from './components/pages_components/ContactPage_Comp';
 import ProductPageComp from "./components/pages_components/ProductPage_Comp";
 import ProductDetailsComp from "./components/pages_components/ProductDetails_Comp";
+import AboutPageComp from "./components/pages_components/AboutPage_Comp";
 
 const App = () => {
   return (
@@ -23,14 +24,17 @@ const App = () => {
             {/*======================== Landing Page =======================*/}
             <Route exact path="/" component={ LandingPageComp } />
 
-            {/*======================== Contact Page =======================*/}
-            <Route exact path="/contact" component={ ContactPageComp } />
+            {/*======================== About Page =======================*/}
+            <Route exact path="/about_us" component={ AboutPageComp } />
 
             {/*======================== Product Page =======================*/}
             <Route exact path="/products" component={ ProductPageComp } />
 
             {/*======================== Product Detailed Page =======================*/}
             <Route exact path="/product/:product_name" component={ ProductDetailsComp } />
+
+            {/*======================== Contact Page =======================*/}
+            <Route exact path="/contact" component={ ContactPageComp } />
 
         </AppContextProvider>
       </Router>
