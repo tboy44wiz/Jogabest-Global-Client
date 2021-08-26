@@ -67,7 +67,7 @@ const AppFooterComp = (props) => {
             </div>
             <div className="footer-bottom">
                 <div className="footer-copyright">
-                    &copy; Copyright <a href="https://myDomainName.com">CarParts</a>
+                    &copy; Copyright <a href="https://jogabestglobal.com">CarParts</a>
                 </div>
                 <div className="footer-social">
                     <Link to="#"><TiSocialFacebook className="social__icon" /></Link>

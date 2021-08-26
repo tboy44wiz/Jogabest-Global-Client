@@ -26,7 +26,7 @@ const LandingPageComp = () => {
 
             <MostRecentProductsComp />
 
-            <HappyCustomersComp />
+            {/*<HappyCustomersComp />*/}
         </AppLayoutHOC>
     );
 };
