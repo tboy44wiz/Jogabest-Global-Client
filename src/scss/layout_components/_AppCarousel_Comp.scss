@@ -63,10 +63,12 @@
   align-items: center;
 
   .inner {
-    padding: 0 70px;
+    padding: 50px;
     box-sizing: border-box;
     position: absolute;
-    width: 100%;
+    bottom: 100px;
+    //width: 60%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 
     h1 {
       font-family: 'KoHo', sans-serif;
