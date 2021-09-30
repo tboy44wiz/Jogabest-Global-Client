@@ -37,7 +37,8 @@ const AppFooterComp = (props) => {
                                 <span> +234 815 3536 249</span>
                             </p>
                             <p><HiOutlineMail className="contact__icon" /> Email: <Link
-                                to="mailto:hello@domain.com">jogabestglobal@gmail.com</Link></p>
+                                to="mailto:hello@domain.com">jogabestglobal@gmail.com</Link>
+                            </p>
                             <p><RiWhatsappLine className="contact__icon" /> WhatsApp: +234 813 2403 322</p>
                         </div>
 

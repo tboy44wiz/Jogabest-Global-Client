@@ -1,3 +1,5 @@
+@import 'scss/GlobalStyle';
+
 .App {
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;800&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700;800&display=swap');
@@ -7,8 +9,12 @@
     font-family: 'Alegreya Sans SC', sans-serif;
     font-family: 'KoHo', sans-serif;
   */
+  height: $fullHeight;
+  width: $fullWidth;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.8rem;
+  //text-align: center;
 
-@import 'scss/GlobalStyle';
 
 a {
   color: $linkColor;
@@ -19,10 +25,4 @@ a {
    transition: 0.5s ease !important;
  };
 };;
-
-height: $fullHeight;
-width: $fullWidth;
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.8rem;
-//text-align: center;
 }

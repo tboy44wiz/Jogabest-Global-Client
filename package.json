@@ -1,5 +1,6 @@
 {
   "name": "jogabest-global-client",
+  "homepage": "https://jogabestglobal.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +10,6 @@
     "animate.css": "^4.1.1",
     "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
-    "node-sass": "4.14.1",
     "normalize.css": "^8.0.1",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
@@ -46,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0"
   }
 }
